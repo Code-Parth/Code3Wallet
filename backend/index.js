@@ -6,6 +6,11 @@ const cors = require("cors"); // Middleware to enable Cross-Origin Resource Shar
 require("dotenv").config(); // Load environment variables from a .env file
 const port = 5000; // Port on which the server will listen for incoming API requests
 
+// Route to handle root URL requests
+app.get('/', (req, res) => {
+  res.send('This is Code3Wallet Backend !')
+})
+
 // Enable CORS and parse JSON requests
 app.use(cors());
 app.use(express.json());
