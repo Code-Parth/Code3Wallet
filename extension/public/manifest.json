@@ -1,0 +1,22 @@
+{
+  "name": "Code3Wallet",
+  "version": "1.0.0",
+  "description": "My First Crypto Wallet Extension",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open Wallet"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "logo16.png",
+      "48": "logo48.png",
+      "128": "logo128.png"
+    },
+    "default_title": "Your Extension Title",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

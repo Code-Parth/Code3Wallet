@@ -1,0 +1,94 @@
+/* Step 1: Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/* Step 2: Applying smooth scrolling behavior to the HTML element */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Step 3: Basic styling for the body element */
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+/* Step 4: Defining CSS variables using :root pseudo-class */
+:root {
+  /* Step 5: Setting custom font names */
+  --font-poppins: Poppins;
+  --font-oswald: Oswald;
+
+  /* Step 6: Setting font sizes */
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-45xl: 64px;
+
+  /* Step 7: Defining colors using CSS variables */
+  --color-white: #fff;
+  --color-1: #222831;
+  --color-3: #eee;
+  --color-whitesmoke-200: rgba(238, 238, 238, 0.8);
+  --color-whitesmoke-100: rgba(238, 238, 238, 0.1);
+  --color-2: #393e46;
+  --color-darkslategray-100: rgba(57, 62, 70, 0.5);
+  --color-31: #00adb5;
+
+  /* Step 8: Defining gap sizes */
+  --gap-5xl: 24px;
+  --gap-29xl: 48px;
+  --gap-3xs: 10px;
+
+  /* Step 9: Defining padding sizes */
+  --padding-29xl: 48px;
+  --padding-77xl: 96px;
+  --padding-3xs: 10px;
+  --padding-13xl: 32px;
+  --padding-base: 16px;
+  --padding-237xl: 256px;
+  --padding-5xl: 24px;
+
+  /* Step 10: Defining border radius sizes */
+  --br-31xl: 50px;
+  --br-5xl: 24px;
+  --br-base: 16px;
+}
+
+/* Step 11: Styling custom scrollbars for Firefox */
+/* Hide default scrollbars and customize the look */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #222831 #222831;
+}
+
+/* Step 12: Styling custom scrollbars for Chrome, Edge, and Safari */
+/* Using vendor-specific pseudo-elements to customize scrollbar appearance */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #222831;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #222831;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #222831;
+}
+
+*::-webkit-scrollbar-thumb {
+  /* Step 13: Styling scrollbar thumb */
+  border-radius: 5px;
+  background-color: #00acb54f;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #00acb5bb;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #00adb5;
+}
