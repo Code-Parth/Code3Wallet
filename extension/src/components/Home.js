@@ -36,11 +36,11 @@ function Home() {
           Sign In With Seed Phrase
         </Button>
 
-        {/* Render a link to the website (coming soon) */}
+        {/* Render a link to the website (Code3Wallet) */}
         <p className="frontPageBottom">
           Website:{" "}
-          <a href="https://google.com/" target="_blank" rel="noreferrer">
-            Coming soon
+          <a href="https://code3wallet.vercel.app/" target="_blank" rel="noreferrer">
+            Code3Wallet
           </a>
         </p>
       </div>
