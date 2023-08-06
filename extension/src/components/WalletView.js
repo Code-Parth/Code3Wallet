@@ -215,7 +215,7 @@ function WalletView({
   async function getAccountTokens() {
     setFetching(true); // Set fetching state to true to show the loading spinner
 
-    const res = await axios.get(`http://localhost:5000/getTokens`, {
+    const res = await axios.get(`https://code3wallet-backend.onrender.com/getTokens`, {
       params: {
         userAddress: wallet, // Pass the user's wallet address to the backend API
         chain: selectedChain, // Pass the selected chain ID to the backend API
