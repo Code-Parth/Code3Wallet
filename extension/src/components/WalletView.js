@@ -75,8 +75,8 @@ function WalletView({
               <span>You seem to not have any tokens yet</span>
               <p className="frontPageBottom">
                 Website:{" "}
-                <a href="https://google.com/" target="_blank" rel="noreferrer">
-                  Coming soon
+                <a href="https://code3wallet.vercel.app/" target="_blank" rel="noreferrer">
+                  Code3Wallet
                 </a>
               </p>
             </>
@@ -113,8 +113,8 @@ function WalletView({
               <span>You seem to not have any NFTs yet</span>
               <p className="frontPageBottom">
                 Website:{" "}
-                <a href="https://google.com/" target="_blank" rel="noreferrer">
-                  Coming soon
+                <a href="https://code3wallet.vercel.app/" target="_blank" rel="noreferrer">
+                  Code3Wallet
                 </a>
               </p>
             </>
