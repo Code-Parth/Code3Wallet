@@ -46,7 +46,7 @@ const FinalDesign = () => {
               interface.
             </div>
             {/* Link to an external URL with a button */}
-            <Link className={styles.frameWrapper} to="https://www.youtube.com" target="_blank">
+            <Link className={styles.frameWrapper} to="https://github.com/Code-Parth/Code3Wallet/releases/tag/V1.0.0/" target="_blank">
               <div className={styles.downloadNowParent}>
                 <b className={styles.downloadNow}>Download Now</b>
                 <img
